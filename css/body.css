@@ -1,0 +1,92 @@
+.section-1{
+    width: 100%;
+    height: 100%;
+}
+  
+.section-2{
+    width: 100%;
+    height: 100%;
+    background: blue;
+}
+  
+.offer{
+    display: flex;
+    text-align: center;
+    font-size: xx-small;
+}
+  
+.coluna{
+    width: 20%;
+    margin: 1rem auto;
+    color: white;
+}
+  
+.section-3{
+    width: 100%;
+    height: 100%;
+    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/bg-callout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+  
+.section-4{
+    width: 100%;
+}
+
+.subtitle, .section-4{
+    color: #FFB90F;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+
+.title, .section-4 {
+    color:black;
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.portifolio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: inherit;
+    padding: 5% 20%;
+    color: white;
+    text-transform: none;
+    font-size: 1rem;
+}
+    
+.parte1{
+    background: url('C:/Users/Gabriel/heroway/Stylish-portfolio/img/portfolio-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.parte2{
+    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 30%;
+}
+
+.parte3{
+    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.parte4{
+    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+  
+.section-5{
+    width: 100%;
+    height: 100%;
+    background: blue;
+}
