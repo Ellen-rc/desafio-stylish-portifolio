@@ -1,92 +1,152 @@
-.section-1{
-    width: 100%;
-    height: 100%;
-}
-  
-.section-2{
-    width: 100%;
-    height: 100%;
-    background: blue;
-}
-  
-.offer{
-    display: flex;
-    text-align: center;
-    font-size: xx-small;
-}
-  
-.coluna{
-    width: 20%;
-    margin: 1rem auto;
-    color: white;
-}
-  
-.section-3{
-    width: 100%;
-    height: 100%;
-    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/bg-callout.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10%;
-}
-  
-.section-4{
-    width: 100%;
+.section-1 {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
 }
 
-.subtitle, .section-4{
-    color: #FFB90F;
+.section-1 > .flex-container > .title {
+    color: black;
+    text-transform: none;
+}
+
+#btn-offer{
+  width: 8rem;
+  height: 2rem;
+  background-color: #696969;
+  border: 0;
+  font-weight: bold;
+  color:white;
+} 
+
+.section-2 {
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+.section-2 > .flex-container > .title {
+    color: #fff;
+    text-transform: none;  
+  }
+
+.offer {
+  display: flex;
+  text-align: center;
+  font-size: xx-small;
+}
+
+.coluna {
+  width: 20%;
+  margin: 1rem auto;
+  color: white;
+}
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/bg-callout.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+}
+
+.section-3 > .flex-container > .title {
+    color: black;
+    text-transform: none;
+}
+
+.section-4 {
+  width: 100%;
+}
+
+.section-4 > .flex-container > .title {
+    color: black;
+    text-transform: none;
+    font-size: 1rem;
+}
+
+.section-4, .subtitle {
+    color: #ffb90f;
     text-transform: uppercase;
     font-size: 0.5rem;
 }
 
-.title, .section-4 {
-    color:black;
+.portifolio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: inherit;
+  padding: 5% 20%;
+  color: white;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+.parte1 {
+  background: url("C:/Users/Gabriel/heroway/Stylish-portfolio/img/portfolio-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 20%;
+}
+
+.parte2 {
+  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.parte3 {
+  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.parte4 {
+  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.section-5 {
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+.section-5 > .flex-container > .title {
+    color: #fff;
     text-transform: none;
-    font-size: 2rem;
+  }
+
+
+.buttons{
+  display: flex;
+  align-content: space-around; 
+  padding: 0 35%
 }
 
-.portifolio{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: inherit;
-    padding: 5% 20%;
-    color: white;
-    text-transform: none;
-    font-size: 1rem;
-}
-    
-.parte1{
-    background: url('C:/Users/Gabriel/heroway/Stylish-portfolio/img/portfolio-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10%;
-}
+#btn-click{
+  width: 8rem;
+  height: 2rem;
+  background-color: white;
+  border: 0;
+  font-weight: bold;
+} 
 
-.parte2{
-    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10% 30%;
-}
+#btn-look{
+  width: 8rem;
+  height: 2rem;
+  background-color: #696969;
+  border: 0;
+  font-weight: bold;
+  color:white;
+} 
 
-.parte3{
-    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10%;
-}
-
-.parte4{
-    background: url('C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10%;
-}
-  
-.section-5{
-    width: 100%;
-    height: 100%;
-    background: blue;
-}
+@media (max-width: 599px) {
+    html, body {
+        font-size: 22px;
+    }
+  }

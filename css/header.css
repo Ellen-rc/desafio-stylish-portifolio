@@ -7,3 +7,9 @@
   background-position: left 45%;
   padding: 15%
 }
+
+@media (max-width: 599px) {
+  html, body {
+      font-size: 22px;
+  }
+}
