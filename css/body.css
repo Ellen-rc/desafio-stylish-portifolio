@@ -33,6 +33,7 @@
   display: flex;
   text-align: center;
   font-size: xx-small;
+  padding: 5px 15%;
 }
 
 .coluna {
@@ -44,7 +45,7 @@
 .section-3 {
   width: 100%;
   height: 100%;
-  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/bg-callout.jpg");
+  background: url("../img/bg-callout.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10%;
@@ -83,28 +84,28 @@
 }
 
 .parte1 {
-  background: url("C:/Users/Gabriel/heroway/Stylish-portfolio/img/portfolio-1.jpg");
+  background: url("../img/portfolio-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10% 20%;
 }
 
 .parte2 {
-  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-2.jpg");
+  background: url("../img/portfolio-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10%;
 }
 
 .parte3 {
-  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-3.jpg");
+  background: url("../img/portfolio-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10%;
 }
 
 .parte4 {
-  background: url("C:/Users/Gabriel/heroway/stylish-portfolio/img/portfolio-4.jpg");
+  background: url("../img/portfolio-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10%;
